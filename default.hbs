@@ -40,7 +40,7 @@
 <body class="{{body_class}}">
 
     <header id="site-head">
-        <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+        <h1 class="blog-title"><a class="no-deco" href="{{@blog.url}}">{{@blog.title}}</a></h1>
         <h1 class="blog-subtitle">{{@blog.description}}</h1>
     </header>
 
@@ -52,8 +52,8 @@
         <div class="inner">
             {{> footer-social}}
             {{> footer-author}}
-            <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved</section>
-            <section><a href="https://github.com/epistrephein/Steam">Steam theme</a> for <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a> by Tommaso Barbato</section>
+            <section class="copyright">&copy; {{date format="YYYY"}} | All rights reserved</section>
+            <section><a href="https://github.com/paulwellnerbou/Steam/tree/paul.wellnerbou.de">Slightly modified</a> <a href="https://github.com/epistrephein/Steam">Steam theme</a> for <a class="icon-ghost" href="http://ghost.org/"><span class="hidden">Ghost</span></a> by Tommaso Barbato</section>
         </div>
     </footer>
 
