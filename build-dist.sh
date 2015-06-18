@@ -1,2 +1,2 @@
 #!/bin/sh
-git archive --format zip -o Steam-24900df.zip HEAD
+git archive --format zip -o `basename $PWD`-`git rev-parse --short HEAD`.zip HEAD
